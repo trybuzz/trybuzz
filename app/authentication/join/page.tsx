@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-import { AuthenticationForm } from "@/components/thentication";
+import { JoinForm } from "@/components/join";
 
-export default function AuthenticationPage() {
+export default function JoinPage() {
   return (
     <div className="grid min-h-svh lg:grid-cols-2">
       <div className="flex flex-col gap-4 p-6 md:p-10">
@@ -14,7 +14,7 @@ export default function AuthenticationPage() {
         </div>
         <div className="flex flex-1 items-center justify-center">
           <div className="w-full max-w-xs">
-            <AuthenticationForm />
+            <JoinForm />
           </div>
         </div>
       </div>
