@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { AuthenticationForm } from "@/components/thentication";
+import { AuthenticationForm } from "@/components/authentication";
 
 export default function AuthenticationPage() {
   return (
