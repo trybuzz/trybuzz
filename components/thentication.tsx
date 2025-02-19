@@ -41,7 +41,7 @@ export function AuthenticationForm({
         <Button type="submit" className="w-full">Continue</Button>
       </div>
       <div className="text-center text-sm">
-        Don't have an account? <Link href="/authentication/join" className="underline underline-offset-4">Join</Link>
+        Don&apos;t have an account? <Link href="/authentication/join" className="underline underline-offset-4">Join</Link>
       </div>
     </form>
   );
